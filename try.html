@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Stanford Natural Language Processing Group</title>
+    
+    <link rel="shortcut icon" href="Stanford-NLP-icon-144x72.gif" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
+  
+  <link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&family=Poppins&display=swap"
+  rel="stylesheet">
+
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="outerh">
+            <img src="Stanford-NLP-icon-144x72.gif" alt="">
+            <h1><a href="/index.html">The Stanford Natural Language Processing Group</a></h1>
+            <nav class="normal-nav">
+                <ul>
+                    <a href="/people.html">
+                        <li>people</li>
+                    </a>
+                    <a href="/publication.html">
+                        <li>publications</li>
+                    </a>
+                    <a href="https://ai.stanford.edu/blog/nlp/">
+                        <li>research blog</li>
+                    </a>
+                    <a href="software.html">
+                        <li class="ctitle">software</li>
+                    </a>
+                </ul>
+            </nav>
+            <nav class="ham">
+                
+                <div class="ham-button">
+                <a class="" data-toggle="collapse" href="#ham1" aria-expanded="false" aria-controls="ham1"><i class="fa-solid fa-bars "></i></a> 
+                </div>
+
+            </nav>
+          </div>
+
+          <div id="ham-content">
+            <div>
+              
+              <div class="collapse" id="ham1">
+                <ul class="ham-list">
+                  <a href="/people.html">
+                      <li>people</li>
+                  </a>
+                  <a href="/publication.html">
+                      <li>publications</li>
+                  </a>
+                  <a href="https://ai.stanford.edu/blog/nlp/">
+                      <li>research blog</li>
+                  </a>
+                  <a href="software.html">
+                      <li class="ctitle">software</li>
+                  </a>
+              </ul>
+              </div>
+            </div>  
+        </div>
+
+
+        
+
+    </header>
+
+
+
+
+
+
+
+
+
+    <div >
+        <div class="welcome">
+            <h1>Software</h1>
+        </div>
+
+
+        <div class="main softmain">
+            
+            <div class="softcontent">
+                <p>
+                    The Stanford NLP Group makes some of our
+                    Natural Language Processing software
+                    available to everyone!  We provide statistical NLP,
+                    deep learning NLP, and rule-based NLP tools for
+                    major computational linguistics problems, which can be
+                    incorporated into applications with human language technology needs.
+                    These packages are widely used in industry, academia, and government.
+                  </p>
+                
+                      <p>
+                    This code is actively being developed, and we try to answer questions and
+                    fix bugs on a best-effort basis.
+                      </p>
+                      
+                      <p>
+                        All our supported software distributions are written in Java.
+                        Current versions of our software from October 2014 forward require Java 8+.
+                        (Versions from March 2013 to September 2014 required Java 1.6+; versions from
+                        2005 to Feb 2013 required Java 1.5+. The Stanford Parser was
+                        first written in Java 1.1.)
+                        Distribution packages include components for command-line
+                        invocation, jar files, a Java API, and source code.  You can
+                        also find us
+                        on <a href="https://github.com/stanfordnlp/CoreNLP">GitHub</a>
+                        and <a href="http://mvnrepository.com/artifact/edu.stanford.nlp">Maven</a>.
+                        A number of helpful people have extended our work, with bindings or
+                        translations for other languages. As a result, much of this
+                        software can also easily be used from Python (or Jython), Ruby,
+                        Perl, Javascript, F#, and other .NET and JVM languages.
+                      </p>
+                
+                      <p>
+                        These software distributions are open source,
+                        <b>licensed under the
+                        <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU
+                        General Public License</a></b> (v3 or later for Stanford CoreNLP; v2 or later for the other releases).
+                        Note that this is the <i>full</i> GPL,
+                        which allows many free uses, but
+                        <i>does not allow</i> its incorporation (even in part or in translation) into any type of
+                        <a href="http://www.gnu.org/licenses/gpl-faq.html#GPLInProprietarySystem">proprietary software</a>
+                        which you distribute.
+                        <b>Commercial licensing</b> is also available; please <a href="#contact">contact us</a> if you are interested.
+                    <b>Bug fixes</b> and <b>code contributions</b> are very welcome; see the
+                        <a href="https://github.com/stanfordnlp/CoreNLP/blob/master/CONTRIBUTING.md">contributing page</a>
+                    on <a href="https://github.com/stanfordnlp/CoreNLP">our GitHub site</a>.
+                      </p>
+                <br>
+                <h3><a name="contact"></a><a name="Questions">Questions</a></h3>
+                
+                <p>
+                Have a support question? Please ask us on <a href="http://stackoverflow.com">Stack Overflow</a>
+                using the tag stanford-nlp.
+                </p>
+                <p>
+                Feedback, questions, licensing issues, and bug reports / fixes can also be sent to our
+                mailing lists (see immediately below).
+                </p>
+                <br>
+                
+                <h3><a name="Mail">Mailing Lists</a></h3>
+                <p>
+                We have 3 mailing lists for
+                <!--#if expr="$SOFTWARE_NAME" --><!--#echo var="SOFTWARE_NAME" --><!--#else-->this tool<!--#endif-->,
+                 all of which are shared
+                with other JavaNLP tools (with the exclusion of the parser). Each address is
+                at <code>@lists.stanford.edu</code>:
+                </p>
+                <ol>
+                <li><p><code>java-nlp-user</code> This is the best list to post to in order
+                to send feature requests, make announcements, or for discussion among JavaNLP
+                users. (Please ask support questions on
+                        <a href="http://stackoverflow.com">Stack Overflow</a> using the
+                        <tt>stanford-nlp</tt> tag.)
+                </p>
+                <p>You have to subscribe to be able to use this list.
+                Join the list via <a href="https://mailman.stanford.edu/mailman/listinfo/java-nlp-user">this webpage</a> or by emailing
+                <code>java-nlp-user-join@lists.stanford.edu</code>.   (Leave the
+                        subject and message body empty.)  You can also
+                <a href="https://mailman.stanford.edu/pipermail/java-nlp-user/">look at
+                the list archives</a>.</p></li>
+                <li><p><code>java-nlp-announce</code> This list will be used only to announce
+                new versions of Stanford JavaNLP tools.  So it will be very low volume (expect 2-4
+                        messages a year).  Join the list via <a href="https://mailman.stanford.edu/mailman/listinfo/java-nlp-announce">this webpage</a> or by emailing
+                <code>java-nlp-announce-join@lists.stanford.edu</code>.  (Leave the
+                        subject and message body empty.)</p></li>
+                <li><p><code>java-nlp-support</code> This list goes only to the software
+                maintainers.  It's a good address for licensing questions, etc.  <b>For
+                general use and support questions, you're better off using Stack
+                      Overflow or joining and using <code>java-nlp-user</code>.</b>
+                You cannot join <code>java-nlp-support</code>, but you can mail questions to
+                <code>java-nlp-support@lists.stanford.edu</code>.</p></li>
+                </ol>
+                
+            </div>
+            
+            
+            <div class="softtab">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Core</button>
+                  <button class="nav-link" id="nav-project-tab" data-bs-toggle="tab" data-bs-target="#nav-project" type="button" role="tab" aria-controls="nav-project" aria-selected="false">Projects</button>
+                  <button class="nav-link" id="nav-archive-tab" data-bs-toggle="tab" data-bs-target="#nav-archive" type="button" role="tab" aria-controls="nav-archive" aria-selected="false">Archive</button>
+                </div>
+            
+            </nav>
+            
+            
+            <div class="tab-content lists" id="nav-tabContent">
+                
+                
+                <div class="tab-pane fade show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div>
+                      <p><a class="plus" data-toggle="collapse" href="#c1" aria-expanded="false" aria-controls="c1">+</a> 
+                        <a class="minus" href="https://nlp.stanford.edu/software/corenlp-backup-download.html">Stanford CoreNLP [backup download page]</a>
+                      </p>
+                      <div class="collapse" id="c1">
+                        An integrated suite of natural language processing tools for
+                        English, Spanish, and (mainland) Chinese in
+                        Java, including tokenization, part-of-speech tagging, named
+                        entity recognition, parsing, and coreference. See also:
+                        <a href="http://nlp.stanford.edu/software/dcoref.html">Stanford 
+                          Deterministic Coreference Resolution</a>, the
+                        <a href="http://nlp.stanford.edu:8080/corenlp/">online CoreNLP
+                          demo</a>, and the <a href="corenlp-faq.html">CoreNLP FAQ</a>.
+                      </div>
+                    </div>
+                      <hr>
+                    <div>
+                        <p><a class="plus" data-toggle="collapse" href="#c2" aria-expanded="false" aria-controls="c2">+</a> 
+                            <a class="minus" href="https://stanfordnlp.github.io/stanza/index.html">Stanza</a>
+                          </p>
+                          <div class="collapse" id="c2">
+                            A Python natural language analysis package that provides implementations of 
+                            fast neural network models for tokenization, multi-word token expansion, 
+                            part-of-speech and morphological features tagging, lemmatization and dependency parsing 
+                            using the <a href="https://universaldependencies.org/">Universal Dependencies formalism</a>. 
+                            Pretrained models are provided for 
+                            <a href="https://stanfordnlp.github.io/stanza/available_models.html">
+                            more than 70 human languages</a>. 
+                            In addition, it is able to call the CoreNLP Java package and 
+                            inherits additonal functionality from there, such as constituency parsing, 
+                            coreference resolution, and linguistic pattern matching.
+                          </div>  
+                    </div>
+                    <hr>
+                    <div>
+                        <p><a class="plus" data-toggle="collapse" href="#c3" aria-expanded="false" aria-controls="c3">+</a> 
+                            <a class="minus" href="https://nlp.stanford.edu/software/lex-parser.html">Stanford Parser</a>
+                          </p>
+                          <div class="collapse" id="c3">
+                            Implementations of probabilistic natural language
+                            parsers in Java: PCFG and dependency parsers,
+                            a lexicalized PCFG parser, a super-fast neural-network dependency parser,
+                            and a deep learning reranker. See also: 
+                          <a href="http://nlp.stanford.edu:8080/parser/">Online parser demo</a>, the
+                          <a href="http://nlp.stanford.edu/software/stanford-dependencies.html">Stanford Dependencies</a> page,
+                          <a href="nndep.html">neural-network dependency parser documentation</a>,
+                          and <a href="parser-faq.html">Parser FAQ</a>.
+                          </div>  
+                    </div>
+                    <hr>
+                    <div>
+                        <p><a class="plus" data-toggle="collapse" href="#c4" aria-expanded="false" aria-controls="c4">+</a> 
+                            <a class="minus" href="https://nlp.stanford.edu/software/tagger.html">Stanford POS Tagger</a>
+                          </p>
+                          <div class="collapse" id="c4">
+                            A maximum-entropy (CMM) part-of-speech
+                            (POS) tagger for English, Arabic, Chinese, French, German, and Spanish, in Java.
+                          </div>  
+                    </div>
+                    <hr>
+                    <div>
+                        <p><a class="plus" data-toggle="collapse" href="#c5" aria-expanded="false" aria-controls="c5">+</a> 
+                            <a class="minus" href="https://nlp.stanford.edu/software/CRF-NER.html">Stanford Named Entity Recognizer</a>
+                          </p>
+                          <div class="collapse" id="c5">
+                            A Conditional Random Field sequence
+                            model, together with well-engineered features for Named Entity
+                            Recognition in English, Chinese, German, and Spanish.
+                            <a href="http://nlp.stanford.edu:8080/ner/">Online NER demo</a>.
+                          </div>  
+                    </div>
+                </div>
+                
+                
+                <div class="tab-pane fade" id="nav-project" role="tabpanel" aria-labelledby="nav-project-tab">
+                    <div>
+                        <p><a class="plus" data-toggle="collapse" href="#p1" aria-expanded="false" aria-controls="p1">+</a> 
+                          <a class="minus" href="https://nlp.stanford.edu/projects/nmt/">Stanford Neural Machine Translation</a>
+                        </p>
+                        <div class="collapse" id="p1">
+                            Latest research on neural machine translation (NMT) at Stanford NLP group. We release our codebase which produces state-of-the-art results in various translation tasks such as English-German and English-Czech. In addtion, to encourage reproducibility and increase transparency, we release our preprocessed data and pretrained models as well.
+                        </div>
+                      </div>
+                        <hr>
+
+                        <div>
+                            <p><a class="plus" data-toggle="collapse" href="#p2" aria-expanded="false" aria-controls="p2">+</a> 
+                              <a class="minus" href="https://nlp.stanford.edu/projects/snli/">Stanford Natural Language Inference Corpus (SNLI)</a>
+                            </p>
+                            <div class="collapse" id="p2">
+                                The SNLI corpus is a collection of 570k human-written English sentence pairs manually labeled for balanced classification with the labels entailment, contradiction, and neutral, supporting the task of natural language inference (NLI), also known as recognizing textual entailment (RTE).
+                            </div>
+                          </div>
+                            <hr>
+
+                            <div>
+                                <p><a class="plus" data-toggle="collapse" href="#p3" aria-expanded="false" aria-controls="p3">+</a> 
+                                  <a class="minus" href="https://nlp.stanford.edu/software/sempre/">Semantic Parsing with Execution (SEMPRE)</a>
+                                </p>
+                                <div class="collapse" id="p3">
+                                    SEMPRE is a toolkit for training semantic parsers, which map natural language utterances to denotations (answers) via intermediate logical forms.
+                                </div>
+                              </div>
+                                <hr>
+
+                                <div>
+                                    <p><a class="plus" data-toggle="collapse" href="#p4" aria-expanded="false" aria-controls="p4">+</a> 
+                                      <a class="minus" href="https://nlp.stanford.edu/software/openie.html">Stanford Open Information Extraction</a>
+                                    </p>
+                                    <div class="collapse" id="p4">
+                                        A tool for extracting open domain relation triples; e.g., "cats play with yarn" yields (cats; play with; yarn).
+                                    </div>
+                                  </div>
+                                    <hr>
+
+                                    <div>
+                                        <p><a class="plus" data-toggle="collapse" href="#p5" aria-expanded="false" aria-controls="p5">+</a> 
+                                          <a class="minus" href="https://nlp.stanford.edu/projects/glove/">GloVe: Global Vectors for Word Representations</a>
+                                        </p>
+                                        <div class="collapse" id="p5">
+                                            Software in <b>C</b> for learning state-of-the-art distributed word representations.
+		                                    We also distribute a number of sets of pre-trained word vectors.
+                                        </div>
+                                      </div>
+                                        <hr>
+
+                                        <div>
+                                            <p><a class="plus" data-toggle="collapse" href="#p6" aria-expanded="false" aria-controls="p6">+</a> 
+                                              <a class="minus" href="https://nlp.stanford.edu/sentiment/">Deep Learning for Sentiment Analysis</a>
+                                            </p>
+                                            <div class="collapse" id="p6">
+                                                This page provides a live demo of fine-grained sentiment analysis using recursive neural networks on the Stanford Sentiment Treebrank.
+                                            </div>
+                                          </div>
+                                            <hr>
+
+                                            <div>
+                                                <p><a class="plus" data-toggle="collapse" href="#p7" aria-expanded="false" aria-controls="p7">+</a> 
+                                                  <a class="minus" href="https://nlp.stanford.edu/phrasal/">Phrasal</a>
+                                                </p>
+                                                <div class="collapse" id="p7">
+                                                    A state-of-the-art phrase-based machine translation system.
+                                                </div>
+                                              </div>
+                                                <hr>
+                </div>
+
+                
+                <div class="tab-pane fade" id="nav-archive" role="tabpanel" aria-labelledby="nav-archive-tab">
+                    <div>
+                        <p><a class="plus" data-toggle="collapse" href="#a1" aria-expanded="false" aria-controls="a1">+</a> 
+                          <a class="minus" href="https://downloads.cs.stanford.edu/nlp/software/tmt/tmt-0.4/">Topic Modeling Toolbox (TMT)</a>
+                        </p>
+                        <div class="collapse" id="a1">
+		                    A suite of topic modeling tools for social scientists and others
+		                    who wish to perform analysis on datasets that have a substantial
+		                    textual component.  <i>Unfortunately, this software is no longer developed or supported.</i>
+                        </div>
+                      </div>
+                        <hr>
+
+
+                        <div>
+                            <p><a class="plus" data-toggle="collapse" href="#a2" aria-expanded="false" aria-controls="a2">+</a> 
+                              <a class="minus" href="https://nlp.stanford.edu/software/eventparser.html">Stanford Biomedical Event Parser (SBEP)</a>
+                            </p>
+                            <div class="collapse" id="a2">
+                                Biomedical Event Extraction for the BioNLP 2009/2011 shared task.
+                            </div>
+                          </div>
+                            <hr>
+                            
+                            
+                            <div>
+                                <p><a class="plus" data-toggle="collapse" href="#a3" aria-expanded="false" aria-controls="a3">+</a> 
+                                  <a class="minus" href="https://nlp.stanford.edu/software/mteval.html">Entailment-based MT Evaluation Software</a>
+                                </p>
+                                <div class="collapse" id="a3">
+                                    Software to predict the adequacy of MT system output. The
+		                            scoring is based in assessing the quality of entailment
+		                            between the system output and the reference translation.
+                                </div>
+                              </div>
+                                <hr>
+
+
+                                <div>
+                                    <p><a class="plus" data-toggle="collapse" href="#a4" aria-expanded="false" aria-controls="a4">+</a> 
+                                      <a class="minus" href="https://downloads.cs.stanford.edu/nlp/software/tmt/tmt-0.4/">TSimple manual annotation tool</a>
+                                    </p>
+                                    <div class="collapse" id="a4">
+                                        A simple tool for annotating spans of text with classes
+		                                suitable for supervised training of named entity recognition and
+		                                information extraction models.  Works on plain text and HTML
+		                                documents.  Click to download
+		                                <a href="/software/stanford-manual-annotation-tool-2004-05-16.tar.gz">stanford-manual-annotation-tool-2004-05-16.tar.gz</a>.
+                                    </div>
+                                  </div>
+                                    <hr>
+                </div>
+
+              </div>
+            </div>
+        
+        
+        </div>
+
+    <footer>
+        <div class="outerf">
+            <div class="f1">
+                <h4>Stanford NLP Group</h4>
+                <p>Gates Computer Science Building
+                    353 Jane Stanford Way
+                    Stanford, CA 94305-9020
+                    <a href="">Directions and Parking</a></p>
+            </div>
+
+            <div class="f2">
+                <h4>Affiliated Groups</h4>
+                <ul>
+                    <a href="">
+                        <li>Stanford AI Lab</li>
+                    </a>
+                    <a href="">
+                        <li>Stanford InfoLab</li>
+                    </a>
+                    <a href="">
+                        <li>CSLI</li>
+                    </a>
+
+                </ul>
+            </div>
+
+            <div class="f3">
+                <h4>Contact</h4>
+                <ul>
+                    <a href="">
+                        <li>stack overflow</li>
+                    </a>
+                    <a href="">
+                        <li>Github</li>
+                    </a>
+                    <a href="">
+                        <li>Twitter</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="f4">
+                <h4>Local Links</h4>
+                <ul>
+                    <li><a href="">NLP Lunch</a>. <a href=""> NLP Reading Group</a></li>
+
+                    <li><a href="">NLP Seminar</a>. <a href="">Calender</a>
+                    </li>
+                    <li>
+                        <a href="">cluster info</a>
+                    </li>
+
+                    <li>
+                        <a href=""> cluster onboarding</a>
+                    </li>
+                    <li>
+                        <a href="">AI Speaker</a>. <a href="">Q&A</a>
+
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <h5>made by Harpreet Singh</h5>
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anon   ymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
